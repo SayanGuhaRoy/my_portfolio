@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sayan Guha Roy</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parent" >
+        <!-- <div class="burger-back"> -->
+
+        <!-- </div> -->
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <header>
+            <!-- <div class="menu-toggler"> -->
+                <!-- <div class="bar half start"></div> -->
+                <!-- <div class="bar"></div> -->
+                <!-- <div class="bar half end"></div> -->
+            <!-- </div> -->
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="landing-text">
+                <h1>Sayan Guha Roy</h1>
+                <h6>Data Scientist and amateur gamer</h6>
+            </div>
+        </header>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                    <img src="/static/images/profile.jpeg" alt="">
+                </div>
+                <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Myself</h6>
+                    </div>
+                    <p>A Data Science enthusiast and student of Statistics forevemore. I love coding and everything related to Data Science with a sound knowledge of Web Development. As far as hobbies go, I love watching movies playing video games.</p>
+                    <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="https://www.facebook.com/sayan.guharoy.7" target="_blank" class="icon-link">
+                                    <i class='bx bxl-facebook-square'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="icon-link">
+                                    <div class="plain">
+                                        <a href="https://www.instagram.com/sayan_guha_roy/" target="_blank" >
+                                            <i class='bx bxl-instagram-alt'></i>
+                                        </a>
+                                    </div>
+                                    <div class="back">
+                                        <a href="https://www.instagram.com/sayan_guha_roy/" target="_blank" >
+                                            <i class='bx bxl-instagram-alt'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sayan-guha-roy-99b761191/" target="_blank" class="icon-link">
+                                    <i class='bx bxl-linkedin-square' ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="download_cv">
+                    <a href="https://drive.google.com/file/d/1k4fkJx2cr59zrgzUtc2iYs-Kd2mC061c/view?usp=sharing" target="_blank">Download CV</a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Services</h1>
+                    <h6>What I can do</h6>
+                </div>
+                <div class="my-skills">
+                    <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                        <div class="icon-container">
+                            <i class='bx bxl-html5'></i>
+                        </div>
+                        <h1>HTML5</h1>
+                        <div class="percentage-cont">
+                            <div class="percentageh"></div>
+                            <div class="number">65%</div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                        <div class="icon-container">
+                            <i class='bx bxl-css3' ></i>
+                        </div>
+                        <h1>CSS3</h1>
+                        <div class="percentage-cont">
+                            <div class="percentagec"></div>
+                            <div class="number">55%</div>
+                        </div>
+                    </div>
+                    <div class="skill"  data-aos="fade-in" data-aos-delay="900">
+                        <div class="icon-container">
+                            <i class='bx bxl-javascript' ></i>
+                        </div>
+                        <h1>JAVASCRIPT</h1>
+                        <div class="percentage-cont">
+                            <div class="percentagej"></div>
+                            <div class="number">30%</div>
+                        </div>
+                    </div>
+                    <div class="skill"  data-aos="fade-in" data-aos-delay="1200">
+                        <div class="icon-container">
+                            <i class='bx bxl-python'></i>
+                        </div>
+                        <h1>PYTHON</h1>
+                        <div class="percentage-cont">
+                            <div class="percentagep"></div>
+                            <div class="number">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill"  data-aos="fade-in" data-aos-delay="1200">
+                        <div class="icon-container">
+                            <i class='bx bxl-microsoft'></i>
+                        </div>
+                        <h1>MS-OFFICE</h1>
+                        <div class="percentage-cont">
+                            <div class="percentagem"></div>
+                            <div class="number">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill"  data-aos="fade-in" data-aos-delay="1200">
+                        <div class="icon-container">
+                            <i class='bx bx-vector'></i>
+                        </div>
+                        <h1>MACHINE LEARNING</h1>
+                        <div class="percentage-cont">
+                            <div class="percentagemac"></div>
+                            <div class="number">60%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Portfolio</h1>
+                    <h6>View some of my recent work</h6>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                        <img src="/static/images/portitem1.jpg" alt="">
+                    </div>
+                    <div class="portfolio-description"  data-aos="fade-left" data-aos-delay="600">
+                        <h6>Data Science and Web Development</h6>
+                        <h1>Covid-19 Tracker</h1>
+                        <p>We built a covid-19 tracker containg graphs of historical data and current data, news, senitiment analysis and forecasts. The entire tracker is divided into two parts, one for the entire world and the other for India. 
+                        </p>
+                        <a href="http://3.6.38.122:5000/" target="_blank" class="cta">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right"  data-aos="fade-right" data-aos-delay="600">
+                        <h6>Data Science</h6>
+                        <h1>Avocado Price Prediction</h1>
+                        <p>Predicting avocado price in U.S.A using random forest model. 
+                        </p>
+                        <a href="https://sayan1986.pythonanywhere.com/" target="_blank" class="cta">View Details</a>
+                    </div>
+                    <div class="portfolio-img"  data-aos="fade-left" data-aos-delay="300">
+                        <img src="/static/images/portitem2.jpg" alt="">
+                    </div>
+                </div>
+                <!-- <div class="portfolio-item"> -->
+                    <!-- <div class="portfolio-img has-margin-right"  data-aos="fade-right" data-aos-delay="300"> -->
+                        <!-- <img src="images/portitem3.jpeg" alt=""> -->
+                    <!-- </div> -->
+                    <!-- <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600"> -->
+                        <!-- <h6>Web Development</h6> -->
+                        <!-- <h1>Blog website</h1> -->
+                        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, voluptatem? -->
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, autem! -->
+                        <!-- </p> -->
+                        <!-- <a href="#" class="cta">View Details</a> -->
+                    <!-- </div> -->
+                <!-- </div>            -->
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Work Experiece</h1>
+                    <h6>Past and current jobs</h6>
+                </div>
+                <div class="timeline"  data-aos="fade-down" data-aos-delay="300">
+                    <ul>
+                        <li class="date" data-date="2020-Present">
+                            <h1>Objectsol Technologies Pvt Ltd</h1>
+                            <p>I work as data scientist. My projects have covered varied topics including convolutional neural networks, time series forecast and many more.
+                            </p>
+                        </li>
+                        <!-- <li class="date" data-date="2008-2011"> -->
+                            <!-- <h1>FAcebook</h1> -->
+                            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, voluptatem? -->
+                                <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, autem! -->
+                            <!-- </p> -->
+                        <!-- </li> -->
+                        <!-- <li class="date" data-date="2005-2008"> -->
+                            <!-- <h1>Microsoft</h1> -->
+                            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, voluptatem? -->
+                                <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, autem! -->
+                            <!-- </p> -->
+                        <!-- </li> -->
+                    </ul>
+                </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Conatct</h1>
+                    <h6>Let's work together</h6>
+                </div>
+                <form action="mailto:rajahitman47@gmail.com" method="POST" enctype="text/plain" data-aos="fade-up" data-aos-delay="300">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                    <label for="service">Services:</label>
+                    <select name="services" id="service">
+                        <option value="Data Scientist">Data Scientist</option>
+                        <option value="Data Analyst">Data Analyst</option>
+                        <option value="Data Engineer">Data Engineer</option>
+                        <option value="Python Developer">Python Developer</option>
+                    </select>
+                    <label for="subject">Subject:</label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+        </section>
+
+        <footer class="copyright">
+            <div class="up" id="up">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script> -->
+        <!-- AOS.init(); -->
+    <!-- </script> -->
+    <script src="{{ url_for('static', filename='main.js')}}"></script>
+</body>
+</html>
