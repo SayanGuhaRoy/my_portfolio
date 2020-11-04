@@ -712,7 +712,7 @@ input[type="submit"]:hover{
 
     .download_cv{
         font-size: 1.5rem;
-        width: 50%;
+        width: 30%;
     }
 
     .tiemline ul{
@@ -730,9 +730,10 @@ input[type="submit"]:hover{
         /* right: 2rem; */
     /* } */
     
-    /* .download_cv{ */
-        /* margin: 3rem 36% 3px 34%; */
-    /* } */
+    .download_cv{
+        margin: 3rem 0 3px 35%;
+    }
+
     .landing-text h1{
         font-size: 8rem;
     }
